@@ -23,7 +23,7 @@ const MainInnerTwo = () => {
                 <div className={`${styles.bottomcard} ${styles.service}`}>
                     <div className={styles.bottomheader}>
                         <h3>For Service</h3>
-                        <img src ={users}/>
+                        <img src ={users} alt="users icon"/>
                     </div>
                     <div className={styles.bottomcontent}></div>
                     <div className={styles.bottomtext}>
@@ -31,17 +31,17 @@ const MainInnerTwo = () => {
                         <p>Transform how customers interact with your services through intelligent AI solutions.</p>
 
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
@@ -52,7 +52,7 @@ const MainInnerTwo = () => {
                 <div className={`${styles.bottomcard} ${styles.process}`}>
                       <div className={styles.bottomheader}>
                         <h3>For Process</h3>
-                        <img src ={document}/>
+                        <img src ={document} alt="document icon"/>
                     </div>
                     <div className={styles.bottomcontent}></div>
                     <div className={styles.bottomtext}>
@@ -60,17 +60,17 @@ const MainInnerTwo = () => {
                         <p>Modern businesses run on process and process runs better with Ai. Worktual Ai for</p>
 
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
@@ -80,7 +80,7 @@ const MainInnerTwo = () => {
                 <div className={`${styles.bottomcard} ${styles.growth}`}>
                       <div className={styles.bottomheader}>
                         <h3>For Growth</h3>
-                        <img src ={document}/>
+                        <img src ={document} alt="document icon"/>
                     </div>
                     <div className={styles.bottomcontent}></div>
                     <div className={styles.bottomtext}>
@@ -88,17 +88,17 @@ const MainInnerTwo = () => {
                         <p>Transform how customers interact with your services through intelligent AI solutions.</p>
 
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>
                         <div className={styles.bottomicon}>
-                            <img src={tick}/>
+                            <img src={tick} alt="tick icon"/>
                             <p className={styles.test}>Human-like self-service that empowers customers to solve problems instantly.</p>
 
                         </div>

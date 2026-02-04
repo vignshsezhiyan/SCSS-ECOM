@@ -26,11 +26,11 @@ const Footer =()=>{
             <div className={styles.rightsection}>
                 <div className={styles.socilamediaimages}>
 
-                    <img src={linkedin}/>
-                    <img src={instagram}/>
-                    <img src={twitter}/>
-                    <img src={youtube}/>
-                    <img src={facebook}/>
+                    <img src={linkedin} alt="linkedin"/>
+                    <img src={instagram} alt="instagram"/>
+                    <img src={twitter} alt="twitter"/>
+                    <img src={youtube} alt="youtube"/>
+                    <img src={facebook} alt="facebook"/>
                 </div>
                 <p>Copyright © 2026. All rights reserved.</p>
 

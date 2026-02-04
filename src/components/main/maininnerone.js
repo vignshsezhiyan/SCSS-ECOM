@@ -18,17 +18,17 @@ const MainInnerComp = () =>{
 
             <div className={styles.bottommain}>
                 <div className={styles.innerbottom}>
-                    <img src={iphone}/>
+                    <img src={iphone} alt="iphone 15"/>
                     <h3>Iphone 15</h3>
                     <p>Features a titanium design, A17 Pro chip, USB-C connector, and a 48MP main camera system.</p>
                 </div>
                 <div className={styles.innerbottom}>
-                    <img src= {airpods}/>
+                    <img src= {airpods} alt="airpods"/>
                     <h3>Airpods</h3>
                     <p>An "all-in-one" desktop computer that houses the and storage within the monitor case.</p>
                 </div>
                 <div className={styles.innerbottom}>
-                    <img src={mac}/>
+                    <img src={mac} alt="macbook"/>
                     <h3>Macbook</h3>
                     <p>Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency,</p>
                 </div>
