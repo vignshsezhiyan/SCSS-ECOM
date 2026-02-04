@@ -1,0 +1,27 @@
+.maincomp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+    .leftcontainer {
+        margin: 40px;
+        .contactusButton{
+            background-color: black;
+            color: white;
+            width: 140px;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    }
+
+    .rightcontainer {
+        img {
+            width: 600px;
+            height: 400px;
+            margin-right: 50px;
+            border-radius: 10px;
+        }
+    }
+}

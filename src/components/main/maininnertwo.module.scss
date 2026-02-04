@@ -1,0 +1,96 @@
+.maincontainer {
+    margin-top: 60px;
+    margin-bottom: 70px;
+
+    .topsection {
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+
+        .highlight {
+            color: rgb(200, 55, 244);
+        }
+    }
+
+    .bottomsection {
+        width: 90%;
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .bottomcard {
+            width: 30%;
+            // background-color: #c18fff;
+            height: 500px;
+            border-radius: 0 40px 0 40px;
+
+            .bottomcontent {
+                width: 90%;
+                background-color: rgb(109, 103, 103);
+                height: 1px;
+                margin-left: 15px;
+            }
+
+        }
+
+        .bottomheader {
+            display: flex;
+            padding-top: 5px;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                background-color: #cda5ff;
+                padding: 10px;
+                border-radius: 0 20px 0 20px;
+            }
+        }
+
+        .bottomtext {
+            margin: 15px;
+
+        }
+
+        .bottomicon {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    .service {
+        background-color: #c18fff;
+
+        .bottomheader img {
+            background-color: #cda5ff;
+        }
+    }
+
+    .process {
+        background-color: #aceadd;
+
+        .bottomheader img {
+            background-color: #7fdac4;
+        }
+    }
+
+    .growth {
+        background-color: #f7ce81;
+
+        .bottomheader img {
+            background-color: #f1b94e;
+        }
+    }
+}

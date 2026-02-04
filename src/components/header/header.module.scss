@@ -1,0 +1,82 @@
+@use 'variables';
+
+.container {
+    height: 70px;
+    background-color: variables.$primaryColor;
+    color: #000;
+    display: flex;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+
+    .firstportion {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .companylogo {
+            margin-left: 40px;
+            margin-right: 40px;
+            rotate: 15deg;
+        }
+
+    }
+
+    .secondPortion {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        color: variables.$secondaryColor;
+
+        .inputwithsearch {
+            display: flex;
+            align-items: center;
+            position: relative;
+            justify-content: center;
+
+
+            input {
+                padding: 10px;
+                width: 200px;
+            }
+
+            .inputsearchicon {
+                position: absolute;
+                top: 2px;
+                left: 182px;
+                background-color: #dab7b7;
+                width: 40px;
+                height: 35px;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+
+
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+
+    .titleCard {
+        color: variables.$secondaryColor;
+        margin-right: 20px;
+
+        &:hover {
+            color: rgb(247, 224, 156);
+        }
+    }
+
+
+}

@@ -1,0 +1,52 @@
+.maininner {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    .topmain {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 80px;
+        align-items: center;
+
+        .mainheader {
+            text-align: center;
+
+            .appNamebold {
+                color: rgb(104, 136, 219);
+            }
+        }
+
+
+        .contenttab {
+            margin-top: 25px;
+            max-width: 620px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 1.6;
+            color: #25272a;
+
+        }
+    }
+
+    .bottommain {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        .innerbottom {
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+    }
+
+}

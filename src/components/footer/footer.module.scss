@@ -1,0 +1,32 @@
+.maincontainer{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(245, 213, 213);
+    padding: 10px;
+    border-radius: 13px;
+
+    .leftsection{
+        width: 50%;
+        margin-left: 30px;
+
+        img{
+            width: 200px;
+        }
+        .navigationmenu{
+            display: flex;
+            gap: 50px;
+        }
+    }
+
+    .rightsection{
+        margin-right: 30px;
+        .socilamediaimages{
+            img{
+               
+                margin: 8px;
+            }
+        }
+    }
+}
