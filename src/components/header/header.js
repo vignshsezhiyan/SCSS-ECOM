@@ -22,7 +22,7 @@ const Header = () => {
                         <span className={styles.inputsearchicon}><img src={search} alt="search icon" /></span>
                     </div>
                     <p>Sign In</p> |
-                    <p>Create Account</p>
+                    <p>Create Accountt</p>
                     <img src={cart} alt="cart image" />
                 </div>
             </div>
