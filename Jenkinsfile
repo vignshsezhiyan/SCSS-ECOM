@@ -34,9 +34,10 @@ pipeline {
             steps {
                 sh '''
                 docker run -d \
-                --name react-app \
-                -p 80:80 \
-                react-app
+--restart always \
+--name react-app \
+-p 80:80 \
+react-app
                 '''
             }
         }
